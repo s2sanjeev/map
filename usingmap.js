@@ -30,7 +30,7 @@ const p = [
 ];
 
 const activeid = p.map((item) => {
-  if (item.isActive == true) {
+  if (item.isActive === true) {
     item.isActive = "Available";
     return item;
   } else {
